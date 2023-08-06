@@ -1,7 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 :root{
-    
+    --primary-color: rgb(45, 45, 243);
+    --hover-color:rgb(31, 142, 202);
+    --black-color: rgb(24, 23, 23);
+    --white-color: rgb(255,255,255);
 }
 body{
     font-family: 'Rubik', sans-serif;
+}
+.hero-bg{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(249, 33, 141,.9), rgba(108, 25, 246,.8)), url(../images/bg-head.jpg) no-repeat ;
+    background-size: cover;
+}
+.nav-link:hover{
+    border-bottom: solid 2px var(--hover-color);
+ }
+ #name{
+    font-size: 4rem;
+    text-shadow: 2px 2px 3px var(--hover-color);
+ }
+.pic{
+    height: 300px;
+    width: 280px;
+    background-image: url(../images/sr.jpg);
+    background-size: cover;
+    border: solid 2px rgb(119, 17, 123);
+    border-radius: 60px 10px ;
+    box-shadow:2px 2px 5px white, -2px -2px 5px white;
+}
+.pic:hover{
+    box-shadow: 2px 2px 8px var(--hover-color), -2px -2px 8px var(--hover-color);
+    transition:linear 0.5s 1s  ;
+}
+.icons{
+    color: var(--black-color);
+}
+.icons:hover{
+    color: var(--hover-color);
+    transition: ease-in 0.5s 1s  ;
+}
+/* about part start here */
+
+/* footer part start here */
+footer{
+    height: 100px;
+}
+.ftr-icon{
+    color: var(--primary-color);
+}
+.ftr-icon:hover{
+    color: var(--hover-color);
+    transition: ease-in 0.5s 1s  ;
 }
