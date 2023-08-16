@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
     <header>
       <section class="hero-bg container-fluid">
-        <!-- nav part start here -->
+        <!-- ==================
+        nav part section start 
+        ==================== -->
         <nav class="navbar container-fluid navbar-expand-lg ">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="assets/images/logoH-80.png" alt="SMS Brand"></a>
@@ -28,25 +31,28 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#aboutMe">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Service</a>
+                    <a class="nav-link" href="#myWork">Service</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#myContact">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
         </nav>
+        <!-- ==================
+        hero-part section start 
+        ==================== -->
         <div class="myself container">
           <div class="row align-items-center justify-content-center">
-            <div class="name col-md-6 mt-2">
-              <h3 class="text-center text-dark fs-1 lh-base m-5 fw-bold">Peace be with you! It's <br>
+            <div class="name col-md-6">
+              <h3 class="text-center text-dark fs-2 lh-base mx-5 fw-bold">Peace be with you! It's <br>
               <span id="name">S.M. Saifullah</span><br>And I'm a Web Designer </h3>
             </div>
             <div class="p-5 col-md-6 bg-dange mt-4">
@@ -58,17 +64,17 @@
                   <div class="row text-center mt-4">
                     <ul class="list-unstyled d-flex justify-content-center">
                       <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/s-m-saifullah-13196119a/" target="_blank">
                           <i class="icons fa-brands fa-linkedin fs-1"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://github.com/SaifS23" target="_blank">
                           <i class="icons fa-brands fa-github fs-1 ms-4"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/profile.php?id=100007116524460" target="_blank">
                           <i class="icons fa-brands fa-facebook fs-1 ms-4"></i>
                         </a>
                       </li>
@@ -82,44 +88,131 @@
         </div>
       </section>
     </header>
-    <!-- about me section start -->
-    <section>
+    <!-- ==================
+     about me section start 
+    ==================== -->
+    <section id="aboutMe">
       <div class="about-me container mt-5">
         <h3 class="fw-bold text-center">About Me</h3>
-        <div class="row aboutme mt-5">
-          <div class="col-md-5  fs-5">
-            <p class="px-5">I'm S.M.Saifullah, a Frontend Web Developer, passionate about creating and developing web interfaces. I have experience in Frontend Programming, Responsive Design.</p>
-            <ul class="list-unstyled d-flex justify-content-center mt-5">
-              <li ><a class="btn btn-dark" href="#">Hire Me<i class="fa-solid fa-paper-plane ps-2"></i></a></li>
-              <li><a class="btn btn-dark ms-3" href="#">Download CV<i class="fa-solid fa-download ps-2"></i></a></li>
-            </ul>
+        <div class="underln mx-auto mt-2"></div>
+        <div class="row aboutme mt-5 pb-3">
+          <div class="col-md-5 fs-5 ">
+            <p class="px-5 mx-2">I'm S.M.Saifullah, a Frontend Web Developer, passionate about creating and developing web interfaces. I have experience in also Frontend Programming, Responsive Design.</p>
+            <p class="mt-4 text-center pb-4"><a class="btn btn-dark" href="https://drive.google.com/file/d/12jhO8Nsxodc2nSY99znH7fY5hq6wCgJB/view?usp=drive_link" target="_blank">Download CV<i class="fa-solid fa-download ps-3 p-2"></i></a></p>
           </div>
-          <div class="col-md-6 offset-1">
-            <h5>HTML <span class="float-end">80%</span></h5>
-            <div class="progress mb-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%"></div>
-            </div>
-            <h5>CSS <span class="float-end">75%</span></h5>
-            <div class="progress mb-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-            </div>
-            <h5>Bootstrap <span class="float-end">65%</span></h5>
-            <div class="progress mb-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%"></div>
-            </div>
+          <div class="col-md-6 offset-1 ps-5">
+            <h5 class="fw-bold fs-2 mb-4 ms-3">Skills</h5>
+            <ul class="list-unstyled ms-3">
+              <li>
+                <h4><i class="fa-brands fa-html5 fs-4 me-3"></i>HTML</h4>
+              </li>
+              <li>
+                <h4><i class="fa-brands fa-html5 fs-4 me-3"></i>CSS</h4>
+              </li>
+              <li>
+                <h4><i class="fa-brands fa-bootstrap fs-4 me-3"></i>Bootstrap</h4>
+              </li>
+              <li>
+                <h4><i class="fa-brands fa-square-js fs-4 me-3"></i>Javascript(Basic)</h4>
+              </li>
+            </ul>
           </div>
         </div>
         
       </div>
     </section>
+    <!-- ==================
+     my work section start 
+    ==================== -->
+    <section id="myWork" class="container-fluid work mt-3">
+      <div class="container py-1 pt-5">
+        <h3 class="fw-bold text-center">My Work</h3>
+        <div class="underln2 mx-auto mt-2"></div>
+        <div class="row py-3 gx-3">
+          <div class="col-12 col-md-6 col-lg-4 py-4">
+            <div class="card rounded-2 border-info border-2 shadow-lg" style="width: 18rem;">
+              <img src="assets/images/activity.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+               <a href="https://saifs23.github.io/activity/" class="hover-btn btn fw-semibold" target="_blank">View Work</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 py-4">
+            <div class="card rounded-2 border-info border-2 shadow-lg" style="width: 18rem;">
+              <img src="assets/images/appco.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+               <a href="https://saifs23.github.io/Appco/" class="hover-btn btn fw-semibold" target="_blank">View Work</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 py-4">
+            <div class="card rounded-2 border-info border-2 shadow-lg" style="width: 18rem;">
+              <img src="assets/images/blackWhite.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+               <a href="https://saifs23.github.io/black-white/" class="hover-btn btn fw-semibold" target="_blank">View Work</a>
+              </div>
+            </div>
+          </div>
+         
+          <p class="text-center mt-5"><a class="btn btn-dark" href="https://github.com/SaifS23" target="_blank">For More <i class="fa-solid fa-maximize ps-2 p-2"></i></a></p>
+        </div>
+      </div>
+
+    </section>
+    <!-- ==================
+     contact me section start 
+    ==================== -->
+    <section id="myContact">
+      <div class="container my-5 ">
+        <h3 class="fw-bold text-center">Contact</h3>
+        <div class="underln mx-auto mt-2"></div>
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 col-lg-4 my-3">
+            <div class="card rounded-2  shadow" style="width: 18rem;">
+              <div class="card-body text-center py-4">
+                <h5 class="card-title mb-3"><i class="fa-solid fa-envelope fs-1 "></i></h5>
+                <h6 class="card-subtitle mb-3 ">E-mail</h6>
+                <p class="card-text fw-semibold">md.sagor066@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 my-3">
+              <div class="card rounded-2  shadow" style="width: 18rem;">
+                <div class="card-body text-center py-4">
+                  <h5 class="card-title mb-3"><i class="fa-brands fa-square-whatsapp fs-1 "></i></h5>
+                  <h6 class="card-subtitle mb-3 ">WhatsApp</h6>
+                  <p class="card-text fw-semibold">+88016-11148060</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 my-3">
+            <div class="card rounded-2  shadow" style="width: 18rem;">
+              <div class="card-body text-center py-4">
+                <h5 class="card-title mb-3"><i class="fa-brands fa-telegram fs-1"></i></h5>
+                <h6 class="card-subtitle mb-3 ">Telegram</h6>
+                <p class="card-text fw-semibold">+88016-11148060</p>
+              </div>
+            </div>
+         </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- ==================
+     footer section start 
+    ==================== -->
     <footer class="container-fluid bg-dark mt-4">
-        <div class="container">
-          <div class="row pt-3">
+        <div class="container pt-2">
+          <div class="row pt-4">
             <ul class="d-flex list-unstyled justify-content-center">
-              <li><a href=""><i class="ftr-icon fa-solid fa-envelope fs-4 "></i></a></li>
-              <li><a href=""><i class="ftr-icon fa-brands fa-facebook-messenger fs-4 ms-3"></i></a></li>
-              <li><a href=""><i class="ftr-icon fa-brands fa-square-whatsapp fs-4 ms-3"></i></a></li>
-              <li><a href=""><i class="ftr-icon fa-brands fa-telegram fs-4 ms-3"></i></a></li>
+              <li><a href="mailto:mail@example.com" target="_blank"><i class="ftr-icon fa-solid fa-envelope fs-4 "></i></a></li>
+              <li><a href="#" target="_blank"><i class="ftr-icon fa-brands fa-facebook-messenger fs-4 ms-3"></i></a></li>
+              <li><a href="tel:+8801611148060" target="_blank"><i class="ftr-icon fa-brands fa-square-whatsapp fs-4 ms-3"></i></a></li>
+              <li><a href="t.me/SM_Saifullah" target="_blank"><i class="ftr-icon fa-brands fa-telegram fs-4 ms-3"></i></a></li>
             </ul>
             <p class="text-light text-center">Created & Designed by S@ifullah. &copy; All rights reserved by SMS</p>
           </div>
